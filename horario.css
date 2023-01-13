@@ -1,0 +1,30 @@
+.body
+{
+	font-family: Arial;
+	font-size:12px;
+}
+
+.col-1 {
+	width: 70%;
+	height: 100%;
+	float: left;
+}
+
+.col-2 {
+	width: 27%;
+	height: 100%;
+	float: right;
+	padding-right: 3%;
+}
+
+.login {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	margin-top: 6%;
+}
+
+table, th, td {
+  border: 1px solid black;
+}

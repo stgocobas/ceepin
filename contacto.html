@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" id="estilo1" href="imagenes.css" type="text/css" media="all">
+<link rel="stylesheet" id="estilo1" href="texto.css" type="text/css" media="all">
+<link rel="stylesheet" id="estilo1" href="barra_menu.css" type="text/css" media="all">
+<link rel="stylesheet" id="estilo1" href="login.css" type="text/css" media="all">
+</head>
+
+<a href="home.php"><img src="logo.png" class="logo_top"></a>
+
+<h1>Portal CEEPIN</h1>
+<div class="icon-bar">
+	<a style="width: 20%;"><p>Inicio</p></a>
+	<a style="width: 20%;"><p>Noticias</p></a>
+	<a style="width: 20%;"href="./contacto.html"><p>Contacto</p></a>
+	<a style="width: 20%;"><p>Integrantes</p></a>
+	<a style="width: 20%;"><p>Herramientas</p></a>
+</div>
+
+<div class="login" style="width: 100%">
+	<form method="post" action="#">
+		<h1 style="text-align:left;background-color:#559;color:white;padding-left:10px;">Problemas con la toma de ramos</h1>
+		<h2 style="text-align:left;background-color:#7e7ecf;color:white;padding-left:10px;">Por favor, rellena el formulario para que podamos ayudarte a solucionar el problema.</h2>
+			<h4><label for="rut">RUT (Ej. 12.345.678-9): </label><input style="width: 100%" type="text" name="rut"></h4>
+			<h4><label for="nombre">Nombre Completo: </label><input style="width: 100%" type="text" name="nombre"></h4>
+			<h4><label for="correo">Email</label><input style="width: 100%" type="text" name="email"></h4>
+			<h4><label for="lname">Descripción del problema: </label><input style="width: 100%; height: 200px; vertical-align: top" type="text" name="comentario" ></h4>
+			<h4><label for="lname">Codigos de los ramos afectados (Ej. PIN 215, PIN 312): </label><input style="width: 100%" type="text" name="comentario" ></h4>
+			<input type="submit" style="width: 100%; height: 40px" value="Enviar" name="but_submit" id="but_submit" />
+	</form>
+</div>
